@@ -1,0 +1,92 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	padding: 15px;
+	width: 100%;
+	font-family: "Montserrat", sans-serif;
+}
+
+#title {
+	/*	font-size: 22px;*/
+	padding-bottom: 10px;
+}
+
+.container {
+	margin: auto;
+	display: flex;
+	gap: 90px;
+}
+
+/* HTML Tutorial | HTML  */
+
+ol,
+ul,
+dl {
+	margin: 20px;
+}
+
+dt {
+	font-weight: bold;
+}
+dd {
+	margin-bottom: 10px;
+}
+h2 {
+	color: red;
+}
+
+/* list-style-type */
+/* list-style-position */
+/* list-style-image */
+
+/* Shorthand */
+/* list-style: type* , position*, image* */
+
+/* Ordered List | Styling */
+
+.a-ol {
+	list-style: upper-roman inside;
+}
+
+.b-ol {
+	list-style: lower-roman inside;
+}
+
+.c-ol {
+	list-style: upper-alpha inside;
+}
+
+.d-ol {
+	list-style: lower-alpha inside;
+}
+
+.e-ol {
+	list-style-position: inside;
+}
+
+.f-ol {
+	list-style: decimal-leading-zero inside;
+}
+
+/* Unordered List Styling */
+.a-ul {
+	list-style: disc inside;
+}
+
+.b-ul {
+	list-style: circle inside;
+}
+
+.c-ul {
+	list-style: square inside;
+}
+
+/* List Image*/
+
+.list-image {
+	list-style: disc inside url("img/marker-image.png");
+}
